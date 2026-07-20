@@ -1,0 +1,22 @@
+[project]
+name = "nem-battery-sim"
+version = "0.1.0"
+description = "Degradation-aware BESS dispatch simulator on real NEM data — comparing naive vs degradation-priced revenue"
+readme = "README.md"
+authors = [
+    { name = "yuqin-qy", email = "yuqin.qiu@relectrify.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "highspy>=1.15.1",
+    "linopy>=0.8.0",
+    "matplotlib>=3.11.1",
+    "nemosis>=3.8.1",
+    "openelectricity>=0.11.3",
+    "pandas>=3.0.3",
+    "python-dotenv>=1.2.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.28,<0.12.0"]
+build-backend = "uv_build"
