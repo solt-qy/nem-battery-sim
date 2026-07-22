@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "highspy>=1.15.1",
+    "ipympl>=0.10.0",
     "linopy>=0.8.0",
     "matplotlib>=3.11.1",
     "nemosis>=3.8.1",
