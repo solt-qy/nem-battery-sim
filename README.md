@@ -37,6 +37,16 @@ uv run python -c "import nemosis, openelectricity, linopy, highspy"   # smoke te
 ```
 
 
+## First data pull — NEMOSIS vs OpenElectricity
+
+![VIC1 price comparison: NEMOSIS vs OpenElectricity](figures/smoke_test_VIC1_20250602_20250609.png)
+
+*VIC1 5-minute spot price, 2–9 June 2025: NEMOSIS `DISPATCHPRICE` RRP overlaid with the
+OpenElectricity price series (top), and the source-to-source difference in `$/MWh` (bottom).*
+
+Pull, cross-check, and the read on whether the two sources agree:
+[`notebooks/01_smoke_test_price_sources.ipynb`](notebooks/01_smoke_test_price_sources.ipynb).
+
 ## Status
 
 Phase 0 — scaffolding. Build plan (data layer → arbitrage LP → FCAS
